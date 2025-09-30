@@ -1,0 +1,43 @@
+ body {
+     text-align: center;
+ }
+
+ #sitesTable {
+     width: 80%;
+     margin: 20px auto;
+     border-collapse: collapse;
+     font-family: Arial, sans-serif;
+     background: #f9f9f9;
+     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+     border-radius: 6px;
+     overflow: hidden;
+ }
+
+ #sitesTable thead {
+     background: #4a90e2;
+     color: white;
+ }
+
+ #sitesTable th,
+ #sitesTable td {
+     padding: 12px 15px;
+     text-align: center;
+     border-bottom: 1px solid #ddd;
+ }
+
+ #sitesTable img {
+     width: 60px;
+     height: 60px;
+     object-fit: cover;
+     border-radius: 4px;
+ }
+
+ #sitesTable a {
+     color: #0066cc;
+     text-decoration: none;
+     font-weight: bold;
+ }
+
+ #sitesTable a:hover {
+     text-decoration: underline;
+ }
